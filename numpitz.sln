@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{384F0DF9-295D-44FA-85ED-87F13E90BE82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronos.core", "chronos.core\chronos.core.csproj", "{6EADB01A-95A7-4D2A-A8DD-9954F2311132}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronos.usecases", "chronos.usecases\chronos.usecases.csproj", "{853AEC37-ECDF-4218-B6D3-2C03A1DD28D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronos.presenters", "chronos.presenters\chronos.presenters.csproj", "{4E40C779-BAE4-4EEB-A579-A759C15B95EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronos.ui", "Plugins\chronos.ui\chronos.ui.csproj", "{78DC71FA-B697-4C7E-BA64-63FA913F48D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numpitz.datastore", "Plugins\numpitz.DataStore\numpitz.datastore.csproj", "{D0717BD7-B131-4767-B30D-D56032D8B864}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numpitz.device", "Plugins\numpitz.device\numpitz.device.csproj", "{298D7DE2-CA45-4D3E-B5C1-D83E530295E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chronos.app", "chronos.app\chronos.app.csproj", "{9D69BBE4-B59A-48F6-A2C2-D45684ED9F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EADB01A-95A7-4D2A-A8DD-9954F2311132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EADB01A-95A7-4D2A-A8DD-9954F2311132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EADB01A-95A7-4D2A-A8DD-9954F2311132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EADB01A-95A7-4D2A-A8DD-9954F2311132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853AEC37-ECDF-4218-B6D3-2C03A1DD28D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853AEC37-ECDF-4218-B6D3-2C03A1DD28D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853AEC37-ECDF-4218-B6D3-2C03A1DD28D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853AEC37-ECDF-4218-B6D3-2C03A1DD28D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E40C779-BAE4-4EEB-A579-A759C15B95EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E40C779-BAE4-4EEB-A579-A759C15B95EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E40C779-BAE4-4EEB-A579-A759C15B95EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E40C779-BAE4-4EEB-A579-A759C15B95EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DC71FA-B697-4C7E-BA64-63FA913F48D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DC71FA-B697-4C7E-BA64-63FA913F48D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DC71FA-B697-4C7E-BA64-63FA913F48D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DC71FA-B697-4C7E-BA64-63FA913F48D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0717BD7-B131-4767-B30D-D56032D8B864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0717BD7-B131-4767-B30D-D56032D8B864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0717BD7-B131-4767-B30D-D56032D8B864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0717BD7-B131-4767-B30D-D56032D8B864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298D7DE2-CA45-4D3E-B5C1-D83E530295E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298D7DE2-CA45-4D3E-B5C1-D83E530295E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298D7DE2-CA45-4D3E-B5C1-D83E530295E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298D7DE2-CA45-4D3E-B5C1-D83E530295E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D69BBE4-B59A-48F6-A2C2-D45684ED9F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D69BBE4-B59A-48F6-A2C2-D45684ED9F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D69BBE4-B59A-48F6-A2C2-D45684ED9F56}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9D69BBE4-B59A-48F6-A2C2-D45684ED9F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D69BBE4-B59A-48F6-A2C2-D45684ED9F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D69BBE4-B59A-48F6-A2C2-D45684ED9F56}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78DC71FA-B697-4C7E-BA64-63FA913F48D1} = {384F0DF9-295D-44FA-85ED-87F13E90BE82}
+		{D0717BD7-B131-4767-B30D-D56032D8B864} = {384F0DF9-295D-44FA-85ED-87F13E90BE82}
+		{298D7DE2-CA45-4D3E-B5C1-D83E530295E8} = {384F0DF9-295D-44FA-85ED-87F13E90BE82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DC4A7C7-4361-4B4F-9B18-8F2EF1162D12}
+	EndGlobalSection
+EndGlobal
